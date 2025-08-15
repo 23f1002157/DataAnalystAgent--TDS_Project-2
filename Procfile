@@ -1,1 +1,1 @@
-web: uvicorn app:app --host localhost --port 8000
+web:  uvicorn app:app --host localhost --port ${PORT:-8000}
